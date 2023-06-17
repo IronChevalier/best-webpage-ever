@@ -1,13 +1,28 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
+    background-color: rgb(90, 75, 75);
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
 }
 
 header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 0px 20px 0px;
+    padding: 3rem;
+    gap: 5rem;
+    
 }
 
 .logo > img {
@@ -32,16 +47,19 @@ h1 {
 
 .content-1 {
     display: flex;  
+    justify-content: space-between;
+    gap: 8rem;
 }
 
 h2 {
-    width: 300px;
-    font-size: 30px;
+    max-width: 350px;
+    font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    padding: 8px;
+    gap: 5px;
+    margin: 0;
 }
 
 .h2-subtext {
@@ -50,12 +68,34 @@ h2 {
     color: #E5E7EB;
 }
 
+.Signup-1 {
+    max-width: 5rem;
+    min-width: 4rem;
+}
+
 .header1-image {
     display: flex;
     align-self: center;
 }
 
+.header1-image > img {
+    height: auto;
+    width: 250px;
+}
+
 img {
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: 400px;
+}
+
+.content-2 {
+    padding: 3rem;
+}
+
+.content-3 {
+    padding: 3rem;
+}
+
+.footer {
+    
 }
