@@ -152,8 +152,29 @@ h3 {
     background-color: #9da8be;
     display: flex;
     flex-direction: column;
-    padding: 1rem 6rem 3rem;
+    padding: 3rem 6rem 3rem;
     gap: 5rem;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center; 
+}
+
+h4 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    max-width: 600px;
+    align-self: center;  
+}
+
+.quote-author {
+    display: flex;
+    justify-content: end;
+    font-size: small;
 }
 
 /* Content 3 styling */
@@ -164,6 +185,10 @@ h3 {
     flex-direction: column;
     padding: 1rem 6rem 3rem;
     gap: 5rem;
+}
+
+.content-3 {
+    
 }
 
 /* Footer styling */
